@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, Verdana, Arial;
+    background: #2b2d42;
+    margin-top: 100px;
+}
+
+#SubmitPage {
+    width: 400px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: 0;
+    border: 2px solid black;
+    border-radius: 25px;
+    transition: 0.25s;
+}
+
+body a {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    margin: auto;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: 0.25s;
+}
+
+body a:hover {
+    color: #bdbdbd;
+    text-decoration: underline;
+}
+
+#SubmitPage:hover {
+    background: #242638;
+}
+
