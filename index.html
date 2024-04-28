@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <title>Form Test</title>
+</head>
+
+<!-------------------------------------->
+<body>
+
+<!--A seção do formulário-->
+    <form action="">
+
+        <div class="input-block">
+            <h1>Register</h1>
+            <!--seção do nome-->
+            <div>
+                <label for="Name"></label>
+                <input class="input-name" type="text" placeholder="Username" required><br><br>
+            </div>
+            
+            <!--seção do email-->            
+            <div>
+                <label for="Email"></label>
+                <input class="input-email" type="email" name="Email" id="Email" placeholder="Email" required><br><br>
+            </div>
+
+            <!--seção da senha-->
+            <div>
+                <label for="Password"></label>
+                <input class="input-password" type="password" name="Password" id="Password" placeholder="Password" required><br><br>
+            </div>
+
+            <!--botão de subtmit-->
+            <button class="ButtonSubmit">Submit</button>
+        </div>
+<!----------------------->
+    </form>
+
+    <script src="./src/script.js" defer></script>
+</body>
+
+
+</html>
